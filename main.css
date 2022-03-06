@@ -1,0 +1,26 @@
+:root{
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secundary-color: #f7c331;
+    --text-color-inverse: white;
+    --text-color: white;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3a4460;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--them-color);
+    color: var(--text-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
