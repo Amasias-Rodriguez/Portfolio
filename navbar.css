@@ -3,8 +3,10 @@
     position: fixed;
     background-color: var(--theme-color);
     left: 0;
-    top: 0;
+    top:  0;
     width: 100%;
+    z-index: 100;
+
 }
 
 .topnav{
@@ -44,48 +46,15 @@
 }
 
 .menu a{
-    color: var(--text-color-inverse);
+    color: var(--primary-color);
     font-size: 18px;
     font-weight: 500;
     line-height: 50px;
     text-transform: uppercase;
+   
 }
 
 .open-menu, .close-menu{
     display: none;
 }
 
-@media (max-width: 950px) {
-  
-    .menu{
-       flex-direction: column;
-       position: fixed;
-       left: 0;
-       top: 0;
-       width: 100%;
-       align-items: center;
-       background-color: var( --menu-mobile-background-color);
-       height: 100%;
-       overflow: hidden;
-    }
-    
-    .menu li{
-        padding: 0;
-    }
-    
-    .menu a{
-        color: var(--text-color);
-        line-height: 60px;
-    }
-    
-    .open-menu, .close-menu{
-        display: block;
-        border: none;
-        background: none;
-        cursor: pointer;
-    }
-
-    .close-menu{
-        align-self: flex-end;
-    }
-}
