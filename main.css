@@ -18,6 +18,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--them-color);
     color: var(--text-color);
+    padding-top: 120px;
 }
 
 a{
