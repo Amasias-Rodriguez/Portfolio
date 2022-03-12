@@ -9,34 +9,38 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="/css/experiences.css">
+    <script src="/port.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
     <header class="topheader">
         <nav class="topnav">
             <a href="#" class="logo">
-                <img height="80" width="80" src="/imagenes/profile.jpg">
+                <img height="80" width="80" src="/imagenes/ali-morshedlou-WMD64tMfc4k-unsplash.jpg">
                 <div>
                     Rod Dev <br>
                     {Code}
                 </div>
             </a>
             <button class="open-menu" aria-label="Abrir menu">
-                <img src="/imagenes/hamburger-icon.svg" alt="">
+                <img src="/imagenes/hamburger-icon.svg" alt="hamburger-icon">
             </button>
             <ul class="menu">
                 <button class="close-menu">
-                    <img src="/imagenes/close-icon.svg" alt="">
+                    <img src="/imagenes/close-icon.svg" alt="closeicon">
                 </button>
-                <li><a href="#profle">Profile</a></li>
-                <li><a href="#experiencia">Experience</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-                                      
-      <section class="profile">
+
+    <section class="profile" id="profile">
         <div class="profile-info">
             <h1 class="profile-title">Hi I'm <br>Rod Dev</h1>
             <p class="profile-details">
@@ -53,8 +57,46 @@
         </span>
     </section>
 
+    <section class="experiences" id="experiences">
+        <img src="/imagenes/wave.svg" alt="ola" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experience</h2>
+            <div class="experience">
+                <div class="experiences-grid">
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Amazon</div>
+                    <div class="experience-position">Web Developer</div>
+                    <div class="experience-descrition">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, suscipit</div>
+                </div>
+            </div>
+            <div class="experience" id="experience">
+                <div class="experiences-grid">
+                    <div class="line"></div>
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Amazon</div>
+                    <div class="experience-position">Web Developer</div>
+                    <div class="experience-descrition">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, suscipit</div>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="experiences-grid">
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Amazon</div>
+                    <div class="experience-position">Web Developer</div>
+                    <div class="experience-descrition">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, suscipit</div>
+                </div>
+            </div>
+        </div>
+        <img src="/imagenes/wave.svg" alt="ola" class="wave wave_bottom">
+    </section>
+
     <div class="horizontal-paddin vertical-padding">
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2 class="skills-title">Habilidades</h2>
             <ul class="skills-list">
                 <li class="skills-skill">CSS</li>
@@ -64,6 +106,7 @@
                 <li class="skills-skill">JavaScript</li>
             </ul>
         </section>
-    </div>                                
+    </div>
+    
 </body>
 </html>
